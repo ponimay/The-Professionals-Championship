@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatRider">
+
+
+    <androidx.constraintlayout.widget.Barrier
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="top"
+        app:constraint_referenced_ids="textView29,view1" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chinoso James"
+        android:textSize="14dp"
+        android:textColor="#3A3A3A"
+        android:fontFamily="@font/roboto_medium"
+        android:translationX="170dp"
+        android:gravity="center"
+        android:translationY="10dp"/>
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:translationY="0dp" />
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:translationX="15dp"
+        android:translationY="10dp"
+        app:srcCompat="@drawable/back" />
+    <ImageView
+        android:id="@+id/calllllll"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:translationX="360dp"
+        android:translationY="10dp"
+        app:srcCompat="@drawable/calllll" />
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:translationX="110dp"
+        android:translationY="10dp"
+        app:srcCompat="@drawable/photooo" />
+
+    <ImageView
+        android:id="@+id/imageView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/groo"
+        android:translationX="35dp"
+        android:translationY="110dp"/>
+
+    <ImageView
+        android:id="@+id/imageView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/em"
+        android:translationX="35dp"
+        android:translationY="740dp"/>
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView46"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:srcCompat="@drawable/tettt"-->
+<!--        android:translationX="90dp"-->
+<!--        android:translationY="735dp"/>-->
+
+
+    <ImageView
+        android:id="@+id/imageView47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/chatsend"
+        android:translationX="360dp"
+        android:translationY="730dp"/>
+
+    <EditText
+        android:id="@+id/editTextText14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:textColorHint="#000000"
+        android:hint="  Hi"
+        android:background="@drawable/popo"
+        android:translationX="90dp"
+        android:translationY="735dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

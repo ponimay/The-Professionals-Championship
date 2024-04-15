@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile">
+
+    <androidx.constraintlayout.widget.Barrier
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="top"
+        app:constraint_referenced_ids="textView29,view1" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:textSize="16dp"
+        android:textColor="#A7A7A7"
+        android:translationX="170dp"
+        android:translationY="10dp"/>
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:translationY="0dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/ken"
+        android:translationX="10dp"
+        android:translationY="80dp"/>
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello Ken"
+        android:textSize="16dp"
+        android:textColor="#3A3A3A"
+        android:translationX="75dp"
+        android:translationY="90dp"/>
+
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current balance:"
+        android:textSize="12dp"
+        android:textColor="#3A3A3A"
+        android:translationX="75dp"
+        android:translationY="110dp"/>
+    <TextView
+        android:id="@+id/balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="N10,712:00"
+        android:textSize="12dp"
+        android:textColor="#0560FA"
+        android:translationX="170dp"
+        android:translationY="110dp"/>
+
+    <ImageView
+        android:id="@+id/eyehide"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:clickable="true"
+        android:translationX="360dp"
+        android:translationY="100dp"
+        app:srcCompat="@drawable/eye" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enable dark Mode"
+        android:textSize="16dp"
+        android:textColor="#3A3A3A"
+        android:translationX="10dp"
+        android:translationY="160dp"/>
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/toggle"
+        android:translationX="330dp"
+        android:translationY="160dp"/>
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        app:srcCompat="@drawable/profileedit"
+        android:translationY="200dp"
+        android:translationX="20dp"/>
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Profile"
+        android:textColor="#3A3A3A"
+        android:textSize="16dp"
+        android:fontFamily="@font/roboto_medium"
+        android:translationX="45dp"
+        android:translationY="193dp" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name, phone no, address, email ..."
+        android:textColor="#A7A7A7"
+        android:textSize="12dp"
+        android:translationX="45dp"
+        android:translationY="215dp"
+        android:fontFamily="@font/roboto"/>
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        app:srcCompat="@drawable/right"
+        android:translationY="210dp"
+        android:translationX="355dp"/>
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="16dp"
+        android:layout_height="22dp"
+        app:srcCompat="@drawable/healthicons"
+        android:translationY="250dp"
+        android:translationX="20dp"/>
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Statements &amp; Reports"
+        android:textColor="#3A3A3A"
+        android:textSize="16dp"
+        android:fontFamily="@font/roboto_medium"
+        android:translationX="45dp"
+        android:translationY="245dp" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Download transaction details, orders, deliveries"
+        android:textColor="#A7A7A7"
+        android:textSize="12dp"
+        android:translationX="45dp"
+        android:translationY="265dp"
+        android:fontFamily="@font/roboto"/>
+
+    <ImageView
+        android:id="@+id/send"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        app:srcCompat="@drawable/right"
+        android:translationY="255dp"
+        android:translationX="355dp"/>
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:srcCompat="@drawable/notification"
+        android:translationY="300dp"
+        android:translationX="20dp"/>
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notification Settings"
+        android:textColor="#3A3A3A"
+        android:textSize="16dp"
+        android:fontFamily="@font/roboto_medium"
+        android:translationX="45dp"
+        android:translationY="290dp" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mute, unmute, set location &amp; tracking setting"
+        android:textColor="#A7A7A7"
+        android:textSize="12dp"
+        android:translationX="45dp"
+        android:translationY="310dp"
+        android:fontFamily="@font/roboto"/>
+
+    <ImageView
+        android:id="@+id/notifi"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        app:srcCompat="@drawable/right"
+        android:translationY="305dp"
+        android:translationX="355dp"/>
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:srcCompat="@drawable/wallettt"
+        android:translationY="345dp"
+        android:translationX="20dp"/>
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Card &amp; Bank account settings"
+        android:textColor="#3A3A3A"
+        android:textSize="16dp"
+        android:fontFamily="@font/roboto_medium"
+        android:translationX="45dp"
+        android:translationY="335dp" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="change cards, delete card details"
+        android:textColor="#A7A7A7"
+        android:textSize="12dp"
+        android:translationX="45dp"
+        android:translationY="355dp"
+        android:fontFamily="@font/roboto"/>
+
+    <ImageView
+        android:id="@+id/cardBank"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        app:srcCompat="@drawable/right"
+        android:translationY="350dp"
+        android:translationX="355dp"/>
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:srcCompat="@drawable/carbon"
+        android:translationY="390dp"
+        android:translationX="20dp"/>
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Referrals"
+        android:textColor="#3A3A3A"
+        android:textSize="16dp"
+        android:fontFamily="@font/roboto_medium"
+        android:translationX="45dp"
+        android:translationY="380dp" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="change cards, delete card details"
+        android:textColor="#A7A7A7"
+        android:textSize="12dp"
+        android:translationX="45dp"
+        android:translationY="400dp"
+        android:fontFamily="@font/roboto"/>
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        app:srcCompat="@drawable/right"
+        android:translationY="395dp"
+        android:translationX="355dp"/>
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:srcCompat="@drawable/mapppp"
+        android:translationY="435dp"
+        android:translationX="20dp"/>
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:textColor="#3A3A3A"
+        android:textSize="16dp"
+        android:fontFamily="@font/roboto_medium"
+        android:translationX="45dp"
+        android:translationY="425dp" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="know more about us, terms and conditions"
+        android:textColor="#A7A7A7"
+        android:textSize="12dp"
+        android:translationX="45dp"
+        android:translationY="445dp"
+        android:fontFamily="@font/roboto"/>
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        app:srcCompat="@drawable/right"
+        android:translationY="440dp"
+        android:translationX="355dp"/>
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:srcCompat="@drawable/exit"
+        android:translationY="480dp"
+        android:translationX="20dp"/>
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log Out"
+        android:textColor="#3A3A3A"
+        android:textSize="16dp"
+        android:fontFamily="@font/roboto_medium"
+        android:translationX="45dp"
+        android:translationY="480dp" />
+
+    <ImageView
+        android:id="@+id/logOUT"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        app:srcCompat="@drawable/right"
+        android:translationY="485dp"
+        android:translationX="355dp"/>
+
+
+
+
+
+    <androidx.constraintlayout.widget.Barrier
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="top"
+        app:constraint_referenced_ids="view" />
+
+    <ImageView
+        android:id="@+id/homeeeeee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:srcCompat="@drawable/houseeee"
+        android:translationY="730dp"
+        android:translationX="50dp"/>
+
+    <TextView
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:textSize="12dp"
+        android:textColor="#A7A7A7"
+        android:translationX="45dp"
+        android:translationY="755dp"/>
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/poloska"
+        android:translationY="720dp"
+        android:translationX="352dp"/>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="390dp"
+        android:layout_height="50dp"
+        android:translationY="720dp" />
+
+    <ImageView
+        android:id="@+id/wallet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/wallet"
+        android:clickable="true"
+        android:translationX="150dp"
+        android:translationY="730dp"/>
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wallet"
+        android:textSize="12dp"
+        android:textColor="#A7A7A7"
+        android:translationX="145dp"
+        android:translationY="755dp"/>
+
+    <ImageView
+        android:id="@+id/track"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/car"
+        android:translationY="730dp"
+        android:translationX="250dp"/>
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Track"
+        android:textSize="12dp"
+        android:textColor="#A7A7A7"
+        android:translationX="245dp"
+        android:translationY="755dp"/>
+
+    <ImageView
+        android:id="@+id/prof"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:translationX="355dp"
+        android:translationY="730dp"
+        app:srcCompat="@drawable/profileeeeeeee" />
+
+    <TextView
+        android:id="@+id/proftxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:textSize="12dp"
+        android:textColor="#0560FA"
+        android:translationX="350dp"
+        android:translationY="755dp"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

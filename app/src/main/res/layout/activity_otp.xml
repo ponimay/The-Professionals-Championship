@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OTP">
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OTP Verification"
+        android:textColor="#3A3A3A"
+        android:textSize="24dp"
+        android:translationX="35dp"
+        android:translationY="70dp"/>
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the 6 digit numbers sent to your email"
+        android:textColor="#A7A7A7"
+        android:textSize="14dp"
+        android:translationX="35dp"
+        android:translationY="110dp"/>
+
+    <EditText
+        android:id="@+id/editTextNumberSigned"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:maxLength="1"
+        android:background="@drawable/kvadrat"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:translationX="35dp"
+        android:translationY="180dp"/>
+
+    <EditText
+        android:id="@+id/editTextNumberSigned1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:maxLength="1"
+
+        android:background="@drawable/kvadrat"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:translationX="90dp"
+        android:translationY="180dp"/>
+
+    <EditText
+        android:id="@+id/editTextNumberSigned2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kvadrat"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:translationX="145dp"
+        android:translationY="180dp"/>
+
+    <EditText
+        android:id="@+id/editTextNumberSigned3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kvadrat"
+        android:ems="10"
+        android:maxLength="1"
+
+        android:inputType="numberSigned"
+        android:translationX="200dp"
+        android:translationY="180dp"/>
+
+    <EditText
+        android:id="@+id/editTextNumberSigned4"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kvadrat"
+        android:ems="10"
+        android:maxLength="1"
+
+        android:inputType="numberSigned"
+        android:translationX="255dp"
+        android:translationY="180dp"/>
+    <EditText
+        android:id="@+id/editTextNumberSigned5"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kvadrat"
+        android:ems="10"
+        android:maxLength="1"
+
+        android:inputType="numberSigned"
+        android:translationX="310dp"
+        android:translationY="180dp"/>
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#A7A7A7"
+        android:textSize="14dp"
+        android:text="If you didn’t receive code, "
+        android:translationX="60dp"
+        android:translationY="250dp"/>
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#A7A7A7"
+        android:textSize="14dp"
+        android:text=" resend after 1:00"
+        android:translationX="220dp"
+        android:translationY="250dp"/>
+
+    <Button
+        android:id="@+id/NextBtn"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#A7A7A7"
+        android:translationX="30dp"
+        android:translationY="370dp"
+        android:textStyle="bold"
+        android:text="Set New Password"
+        app:cornerRadius="4dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

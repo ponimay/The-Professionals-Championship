@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SendPack">
+
+    <androidx.constraintlayout.widget.Barrier
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="top"
+        app:constraint_referenced_ids="textView29,view1" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send a package"
+        android:textSize="16dp"
+        android:textColor="#A7A7A7"
+        android:fontFamily="@font/roboto_medium"
+        android:translationX="150dp"
+        android:gravity="center"
+        android:translationY="10dp"/>
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:translationY="0dp" />
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:translationX="15dp"
+        android:translationY="10dp"
+        app:srcCompat="@drawable/back" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:translationX="25dp"
+        android:translationY="80dp"
+        app:srcCompat="@drawable/plus" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Origin Details"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="#3a3a3a"
+        android:textSize="14dp"
+        android:translationX="60dp"
+        android:translationY="80dp"/>
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:textColorHint="#CFCFCF"
+        android:hint="    Address"
+        android:background="@drawable/ramkaa"
+        android:translationX="25dp"
+        android:translationY="114dp"/>
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:textColorHint="#CFCFCF"
+        android:hint="    State,Country"
+        android:background="@drawable/ramkaa"
+        android:translationX="25dp"
+        android:translationY="160dp"/>
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:textColorHint="#CFCFCF"
+        android:hint="    Phone number"
+        android:background="@drawable/ramkaa"
+        android:translationX="25dp"
+        android:translationY="206dp"/>
+
+    <EditText
+        android:id="@+id/editTextText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:textColorHint="#CFCFCF"
+        android:hint="    Others"
+        android:background="@drawable/ramkaa"
+        android:translationX="25dp"
+        android:translationY="252dp"/>
+
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:translationX="25dp"
+        android:translationY="310dp"
+        app:srcCompat="@drawable/geo" />
+
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Destination Details"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="#3a3a3a"
+        android:textSize="14dp"
+        android:translationX="60dp"
+        android:translationY="310dp"/>
+
+    <EditText
+        android:id="@+id/editTextText6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:textColorHint="#CFCFCF"
+        android:hint="    Address"
+        android:background="@drawable/ramkaa"
+        android:translationX="25dp"
+        android:translationY="340dp"/>
+
+    <EditText
+        android:id="@+id/editTextText7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:textColorHint="#CFCFCF"
+        android:hint="    State,Country"
+        android:background="@drawable/ramkaa"
+        android:translationX="25dp"
+        android:translationY="380dp"/>
+
+    <EditText
+        android:id="@+id/editTextText8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:textColorHint="#CFCFCF"
+        android:hint="    Phone number"
+        android:background="@drawable/ramkaa"
+        android:translationX="25dp"
+        android:translationY="420dp"/>
+
+    <EditText
+        android:id="@+id/editTextText9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:textColorHint="#CFCFCF"
+        android:hint="    Others"
+        android:background="@drawable/ramkaa"
+        android:translationX="25dp"
+        android:translationY="460dp"/>
+
+    <ImageView
+        android:id="@+id/imageView36"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:translationX="25dp"
+        android:translationY="510dp"
+        app:srcCompat="@drawable/add" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add destination"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="#A7A7A7"
+        android:textSize="12dp"
+        android:translationX="60dp"
+        android:translationY="515dp"/>
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Package Details"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="#3a3a3a"
+        android:textSize="14dp"
+        android:translationX="25dp"
+        android:translationY="540dp"/>
+
+    <EditText
+        android:id="@+id/editTextText10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:textColorHint="#CFCFCF"
+        android:hint="    package items"
+        android:background="@drawable/ramkaa"
+        android:translationX="25dp"
+        android:translationY="560dp"/>
+    <EditText
+        android:id="@+id/editTextText11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:textColorHint="#CFCFCF"
+        android:hint="    Weight of item(kg)"
+        android:background="@drawable/ramkaa"
+        android:translationX="25dp"
+        android:translationY="600dp"/>
+
+    <EditText
+        android:id="@+id/editTextText12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:textColorHint="#CFCFCF"
+        android:hint="    Worth of Items"
+        android:background="@drawable/ramkaa"
+        android:translationX="25dp"
+        android:translationY="640dp"/>
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select delivery type"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="#3a3a3a"
+        android:textSize="14dp"
+        android:translationX="25dp"
+        android:translationY="680dp"/>
+
+
+    <Button
+        android:id="@+id/NextBtn"
+        android:layout_width="150dp"
+        android:layout_height="79dp"
+        android:backgroundTint="#0560FA"
+        android:translationX="25dp"
+        android:translationY="705dp"
+        android:textStyle="bold"
+        app:cornerRadius="4dp" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/clock"
+        android:translationX="90dp"
+        android:translationY="720dp"/>
+
+    <Button
+        android:id="@+id/SkipBtn"
+        android:layout_width="150dp"
+        android:layout_height="79dp"
+        android:backgroundTint="#FFFFFF"
+        android:translationX="220dp"
+        android:translationY="705dp"
+        android:textColor="#A7A7A7"
+        android:fontFamily="@font/roboto_medium"
+        app:cornerRadius="4dp" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scheduled delivery"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="#A7A7A7"
+        android:translationX="235dp"
+        android:translationY="755dp"/>
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/calender"
+        android:translationX="285dp"
+        android:translationY="720dp"/>
+
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Instant delivery"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="#FFFFFF"
+        android:translationX="55dp"
+        android:translationY="755dp"/>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signupp">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create an account"
+        android:textColor="#3A3A3A"
+        android:textSize="24dp"
+        android:translationX="35dp"
+        android:translationY="25dp"/>
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Complete the sign up process to get started"
+        android:textColor="#A7A7A7"
+        android:textSize="14dp"
+        android:translationX="35dp"
+        android:translationY="60dp"/>
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Full name"
+        android:textColor="#A7A7A7"
+        android:textSize="14dp"
+        android:translationX="35dp"
+        android:translationY="100dp"/>
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/pole"
+        android:ems="10"
+        android:hint=" Ivanov Ivan"
+        android:textSize="16dp"
+        android:textColorHint="#CFCFCF"
+        android:inputType="textCapWords"
+        android:translationX="35dp"
+        android:translationY="125dp"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Number"
+        android:translationX="35dp"
+        android:textColor="#A7A7A7"
+        android:translationY="180dp"/>
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="16dp"
+
+        android:hint=" +7(999)999-99-99"
+        android:inputType="phone"
+        android:background="@drawable/pole"
+        android:translationX="35dp"
+        android:textColorHint="#CFCFCF"
+        android:translationY="205dp"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email Address"
+        android:translationX="35dp"
+        android:textColor="#A7A7A7"
+        android:translationY="260dp"/>
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint=" ***********@mail.com"
+        android:textSize="16dp"
+
+        android:inputType="textEmailAddress"
+        android:background="@drawable/pole"
+        android:translationX="35dp"
+        android:textColorHint="#CFCFCF"
+        android:translationY="285dp"/>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:translationX="35dp"
+        android:textColor="#A7A7A7"
+        android:translationY="340dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="16dp"
+
+        android:inputType="textPassword"
+        android:background="@drawable/pole"
+        android:textColorHint="#CFCFCF"
+        android:hint=" **********"
+
+        android:translationX="35dp"
+        android:translationY="365dp"/>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm Password"
+        android:translationX="35dp"
+        android:textColor="#A7A7A7"
+        android:translationY="420dp" />
+    <EditText
+        android:id="@+id/editTextTextPassword1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint=" **********"
+        android:textSize="16dp"
+
+        android:ems="10"
+        android:inputType="textPassword"
+        android:background="@drawable/pole"
+        android:textColorHint="#CFCFCF"
+        android:translationX="35dp"
+        android:translationY="445dp"/>
+
+    <CheckBox
+        android:id="@+id/Check"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:buttonTint="#0560FA"
+        android:checked="false"
+        android:translationX="35dp"
+        android:translationY="510dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="By ticking this box, you agree to our"
+        android:textColor="#A7A7A7"
+        android:translationX="75dp"
+        android:translationY="520dp"
+        android:textSize="12dp"
+        />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Terms and "
+        android:textColor="#EBBC2E"
+        android:textSize="12dp"
+        android:translationX="270dp"
+        android:translationY="520dp"/>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="conditions and private policy"
+        android:textColor="#EBBC2E"
+        android:textSize="12dp"
+        android:translationX="120dp"
+        android:translationY="540dp"/>
+    <Button
+        android:id="@+id/NextBtn"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#A7A7A7"
+        android:translationX="30dp"
+        android:translationY="600dp"
+        android:textStyle="bold"
+        android:text="Sign Up"
+        app:cornerRadius="4dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account?"
+        android:textSize="14dp"
+        android:textColor="#A7A7A7"
+        android:gravity="center"
+        android:translationX="100dp"
+        android:translationY="670dp" />
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign in"
+        android:textSize="14dp"
+        android:textColor="#0560FA"
+        android:gravity="center"
+        android:clickable="true"
+        android:translationX="265dp"
+        android:translationY="670dp" />
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="or sign in using"
+        android:textSize="14dp"
+        android:textColor="#A7A7A7"
+        android:gravity="center"
+        android:translationX="150dp"
+        android:translationY="695dp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/google"
+            android:translationX="190dp"
+            android:translationY="710dp"/>
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/eye"
+        android:translationX="340dp"
+        android:translationY="380dp"/>
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/eye"
+        android:translationX="340dp"
+        android:translationY="460dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

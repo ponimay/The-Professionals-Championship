@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".quickdelivery">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/quick"
+        android:translationX="35dp"
+        android:translationY="100dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quick Delivery At Your\n Doorstep"
+        android:textColor="#0560FA"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:textStyle="bold"
+
+        android:translationX="85dp"
+        android:translationY="490dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#3A3A3A"
+        android:textSize="16dp"
+        android:text="Enjoy quick pick-up and delivery to\nyour destination"
+        android:translationX="85dp"
+        android:translationY="555dp"/>
+
+    <Button
+        android:id="@+id/NextBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0560FA"
+        android:translationX="290dp"
+        android:translationY="650dp"
+        android:text="Next"
+        android:textStyle="bold"
+        app:cornerRadius="4dp" />
+
+    <Button
+        android:id="@+id/SkipBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:text="Skip"
+        android:textColor="#0560FA"
+        android:textStyle="bold"
+        android:translationX="30dp"
+        android:translationY="650dp"
+        app:cornerRadius="4dp"
+        android:textSize="14dp"
+        app:strokeColor="#0560FA"
+        app:strokeWidth="1dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

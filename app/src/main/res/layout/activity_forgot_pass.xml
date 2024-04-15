@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ForgotPass">
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password"
+        android:textColor="#3A3A3A"
+        android:textSize="24dp"
+        android:translationX="35dp"
+        android:translationY="70dp"/>
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your email address"
+        android:textColor="#A7A7A7"
+        android:textSize="14dp"
+        android:translationX="35dp"
+        android:translationY="110dp"/>
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email Address"
+        android:translationX="35dp"
+        android:textColor="#A7A7A7"
+        android:translationY="200dp"/>
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint=" ***********@mail.com"
+        android:textSize="16dp"
+
+        android:inputType="textEmailAddress"
+        android:background="@drawable/pole"
+        android:translationX="35dp"
+        android:textColorHint="#CFCFCF"
+        android:translationY="230dp"/>
+    <Button
+        android:id="@+id/NextBtn"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#A7A7A7"
+        android:translationX="30dp"
+        android:translationY="370dp"
+        android:textStyle="bold"
+        android:text="Send OTP"
+        app:cornerRadius="4dp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remember password? Back to "
+        android:translationX="60dp"
+        android:textColor="#A7A7A7"
+        android:translationY="450dp"/>
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign in"
+        android:clickable="true"
+        android:translationX="270dp"
+        android:textColor="#0560FA"
+        android:translationY="450dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

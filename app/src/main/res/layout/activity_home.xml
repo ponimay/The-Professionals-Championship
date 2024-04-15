@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <androidx.constraintlayout.widget.Barrier
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="top"
+        app:constraint_referenced_ids="view" />
+
+    <ImageView
+        android:id="@+id/homeeeeee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/house"
+        android:translationY="730dp"
+        android:translationX="50dp"/>
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:textSize="12dp"
+        android:textColor="#0560FA"
+        android:translationX="45dp"
+        android:translationY="755dp"/>
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/poloska"
+        android:translationY="720dp"
+        android:translationX="46dp"/>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="390dp"
+        android:layout_height="50dp"
+        android:translationY="720dp" />
+
+    <ImageView
+        android:id="@+id/wallet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/wallet"
+        android:translationX="150dp"
+        android:translationY="730dp"/>
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wallet"
+        android:textSize="12dp"
+        android:textColor="#A7A7A7"
+        android:translationX="145dp"
+        android:translationY="755dp"/>
+
+    <ImageView
+        android:id="@+id/track"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/car"
+        android:translationY="730dp"
+        android:translationX="250dp"/>
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Track"
+        android:textSize="12dp"
+        android:textColor="#A7A7A7"
+        android:translationX="245dp"
+        android:translationY="755dp"/>
+
+    <ImageView
+        android:id="@+id/prof"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:translationX="355dp"
+        android:translationY="730dp"
+        app:srcCompat="@drawable/profile" />
+
+    <TextView
+        android:id="@+id/proftxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:textSize="12dp"
+        android:textColor="#A7A7A7"
+        android:translationX="350dp"
+        android:translationY="755dp"/>
+
+    <EditText
+        android:id="@+id/editTextText13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint=" Search services"
+        android:textColorHint="#A7A7A7"
+
+        android:fontFamily="@font/roboto"
+        android:background="@drawable/edit"
+        android:inputType="text"
+        android:translationY="35dp"
+        android:translationX="25dp"/>
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/prof"
+        android:translationX="25dp"
+        android:translationY="100dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ken"
+        android:translationY="110dp"
+        android:translationX="35dp"/>
+
+    <TextView
+        android:id="@+id/textView90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello Ken!"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/roboto_medium"
+        android:textSize="24dp"
+        android:translationX="105dp"
+        android:translationY="120dp"
+        />
+    <TextView
+        android:id="@+id/textView91"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  We trust you are having a great time"
+        android:textColor="#CFCFCF"
+        android:fontFamily="@font/roboto"
+        android:textSize="12dp"
+        android:translationX="105dp"
+        android:translationY="150dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/notttt"
+        android:translationY="130dp"
+        android:translationX="330dp"/>
+
+    <TextView
+        android:id="@+id/textView92"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Special for you"
+        android:translationX="25dp"
+        android:textSize="14dp"
+
+        android:translationY="230dp"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="#EC8000"/>
+
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/rightr"
+        android:translationY="232dp"
+        android:translationX="340dp"/>
+
+    <ImageView
+        android:id="@+id/imageView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/techmeet"
+        android:translationX="25dp"
+        android:translationY="260dp"/>
+
+    <ImageView
+        android:id="@+id/imageView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/loverev"
+        android:translationX="195dp"
+        android:translationY="260dp"/>
+
+    <TextView
+        android:id="@+id/textView93"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What would you like to do"
+        android:translationX="25dp"
+        android:textSize="14dp"
+        android:translationY="350dp"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="#0560FA"/>
+
+    <ImageView
+        android:id="@+id/callblock"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/custgray"
+        android:translationY="390dp"
+        android:translationX="25dp"/>
+
+    <ImageView
+        android:id="@+id/walblock"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/custgray"
+        android:translationY="550dp"
+        android:translationX="25dp"/>
+    <ImageView
+        android:id="@+id/imageView49"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/custgray"
+        android:translationY="390dp"
+        android:translationX="210dp"/>
+
+    <ImageView
+        android:id="@+id/chattt"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/custgray"
+        android:translationY="550dp"
+        android:translationX="210dp"/>
+
+    <ImageView
+        android:id="@+id/imageView46"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        app:srcCompat="@drawable/human"
+        android:translationX="40dp"
+        android:translationY="410dp"/>
+
+    <ImageView
+        android:id="@+id/wal"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        app:srcCompat="@drawable/centre"
+        android:translationX="40dp"
+        android:translationY="570dp"/>
+    <ImageView
+        android:id="@+id/imageView50"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        app:srcCompat="@drawable/pack"
+        android:translationX="230dp"
+        android:translationY="410dp"/>
+
+    <ImageView
+        android:id="@+id/chattttt"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        app:srcCompat="@drawable/chat"
+        android:translationX="230dp"
+        android:translationY="570dp"/>
+
+    <TextView
+        android:id="@+id/textView94"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Customer Care"
+        android:translationX="40dp"
+        android:textSize="16dp"
+        android:translationY="460dp"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="#0560FA"/>
+
+    <TextView
+        android:id="@+id/walup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fund your wallet"
+        android:translationX="40dp"
+        android:textSize="16dp"
+        android:translationY="610dp"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="#0560FA"/>
+
+    <TextView
+        android:id="@+id/textView96"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send a package"
+        android:translationX="225dp"
+        android:textSize="16dp"
+        android:translationY="460dp"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="#0560FA"/>
+<TextView
+        android:id="@+id/textView101"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chats"
+        android:translationX="225dp"
+        android:textSize="16dp"
+        android:translationY="610dp"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="#0560FA"/>
+
+    <TextView
+        android:id="@+id/textView95"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Our customer care service line is \navailable from 8 -9pm week days and\n9 - 5 weekends - tap to call us today"
+        android:translationX="40dp"
+        android:textSize="7dp"
+        android:translationY="485dp"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="#3A3A3A"/>
+
+    <TextView
+        android:id="@+id/waltxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To fund your wallet is as easy as ABC,\n make use of our fast technology and \ntop-up your wallet today"
+        android:translationX="40dp"
+        android:textSize="7dp"
+        android:translationY="640dp"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="#3A3A3A"/>
+    <TextView
+        android:id="@+id/textView97"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Request for a driver to pick up or\ndeliver your package for you"
+        android:translationX="225dp"
+        android:textSize="7dp"
+        android:translationY="485dp"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="#3A3A3A"/>
+
+    <TextView
+        android:id="@+id/textchat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search for available rider within your \narea"
+        android:translationX="225dp"
+        android:textSize="7dp"
+        android:translationY="640dp"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="#3A3A3A"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
